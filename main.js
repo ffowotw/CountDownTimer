@@ -1,7 +1,7 @@
 let urlParams = new URLSearchParams(window.location.search);
 
 let title = "UNTIL MONSTER HUNTER WILDS"
-let time = "Feb 28, 2025 10:00:00";
+let time = "Feb 28, 2025 13:00:00";
 
 if (urlParams.has("title"))
 {
