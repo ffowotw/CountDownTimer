@@ -3,6 +3,16 @@ let urlParams = new URLSearchParams(window.location.search);
 let title = "UNTIL MONSTER HUNTER WILDS"
 let time = "Feb 28, 2025 13:00:00";
 
+if (urlParams.has("width"))
+{
+    document.getElementById("container").style.width = urlParams.get("width") + "px";
+}
+
+if (urlParams.has("height"))
+{
+    document.getElementById("container").style.height = urlParams.get("height") + "px";
+}
+    
 if (urlParams.has("title"))
 {
     title = urlParams.get("title")
